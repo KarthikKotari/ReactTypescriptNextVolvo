@@ -1,0 +1,102 @@
+body {
+  background: steelblue;
+  color: white;
+}
+
+.card {
+  text-align: center;
+  padding-top: 10px;
+  opacity: 1;
+  width: 200px;
+  color: white;
+}
+
+.card-title {
+  color: #262626;
+  display: block;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 18px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 0 !important;
+}
+
+.container {
+  margin-top: 100px;
+}
+img {
+  display: block;
+  margin: auto;
+}
+
+.car-img {
+  width: 95%;
+}
+.Home a {
+  text-decoration: none;
+  margin: 5px 10px;
+}
+.Home {
+  display: inline-flex;
+  text-align: justify;
+}
+
+.car-detail {
+  text-align: justify;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+button {
+  border: none;
+  background: none;
+}
+@media only screen and (max-width: 600px) {
+  .button-nav {
+    display: none !important;
+  }
+  .carfilter {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  .model-name-type {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .button-nav {
+    display: none !important;
+  }
+  .carfilter {
+    width: 25%;
+    margin-bottom: 20px;
+  }
+  .model-name-type {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .button-prev {
+    transform: rotate(180deg);
+    height: 30px;
+  }
+  .button-next {
+    height: 30px;
+  }
+  .button-nav {
+    flex-direction: row !important;
+    justify-content: flex-end;
+    margin: 10px;
+  }
+  .carfilter {
+    width: 15%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+  .model-name-type {
+    display: flex;
+    flex-direction: row !important;
+  }
+}
