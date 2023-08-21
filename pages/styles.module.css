@@ -1,0 +1,14 @@
+.home a {
+    text-decoration: none;
+    margin: 5px 10px;
+  }
+
+.home {
+    display: inline-flex;
+    text-align: justify;
+  }
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+}
